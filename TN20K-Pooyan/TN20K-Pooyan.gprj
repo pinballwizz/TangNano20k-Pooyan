@@ -1,0 +1,37 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="src/scandoubler_new.v" type="file.verilog" enable="1"/>
+        <File path="proms/pooyan_char_color_lut.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/pooyan_char_grphx1.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/pooyan_char_grphx2.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/pooyan_palette.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/pooyan_prog.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/pooyan_sound_prog.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/pooyan_sprite_color_lut.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/pooyan_sprite_grphx1.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/pooyan_sprite_grphx2.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T80/T80.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T80/T80_ALU.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T80/T80_MCode.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T80/T80_Pack.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T80/T80_Reg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T80/T80se.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN20K-Pooyan.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/YM2149_linmix_sep.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dac.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gen_ram.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll14.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll48.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/io_ps2_keyboard.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kbd_joystick.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/pooyan.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/pooyan_palette.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/pooyan_sound_board.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN20K-Pooyan.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
